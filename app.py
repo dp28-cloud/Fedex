@@ -12,10 +12,10 @@ from datetime import datetime, timedelta
 app = Flask(__name__)
 
 API_KEYS = {
-    "google_maps": "AIzaSyDEDSwxXkLznsqgHJP9uoJFmRf6WxN-Eu0",
-    "tomtom": "yTXbREIlDXIZ8GQFipRgQzz2VtbQfXPW",
-    "aqicn": "1806d06e33997a60360982843bc6976bc6fe614c",
-    "openweather":"74738814c7074b5f437d4bd524936d5d",
+    "google_maps": "map api",
+    "tomtom": "tomtom api",
+    "aqicn": "aqiccn",
+    "openweather":"openweather api",
 }
 
 # Ensure the 'static' directory exists
